@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+ <title id="title">Kotaro Kumakura — Ideas, made practical.</title>
+ <desc id="desc">An editorial wordmark with an abstract branching symbol. AI agents, automation and data.</desc>
+ <rect width="1200" height="400" rx="4" fill="#132A28"/>
+ <path d="M50 72H1150 M50 335H1150" stroke="#3D5550"/>
+ <g font-family="Arial, Helvetica, sans-serif" fill="#F1F2E8">
+  <text x="50" y="46" font-size="17" letter-spacing="3">KOTARO KUMAKURA</text>
+  <text x="1150" y="46" font-size="15" text-anchor="end" fill="#B4C4BB">@kotarokuma</text>
+ </g>
+ <g font-family="Georgia, 'Times New Roman', serif" fill="#F1F2E8" font-size="91" letter-spacing="-4">
+  <text x="48" y="183">Ideas, made</text>
+  <text x="48" y="280">practical<tspan fill="#D85A3F">.</tspan></text>
+ </g>
+ <g transform="translate(849 118)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="100" cy="80" r="103" stroke="#3D5550"/>
+  <path d="M-17 80H41 Q60 80 60 60V-7 M60 80H126 Q150 80 150 56V-7 M60 80V151 M150 80V151 M150 80H216" stroke="#F1F2E8" stroke-width="3"/>
+  <path d="M60 151V103 Q60 80 83 80H126 Q150 80 150 56V-7" stroke="#D85A3F" stroke-width="6"/>
+  <circle cx="60" cy="-7" r="8" fill="#132A28" stroke="#F1F2E8" stroke-width="3"/>
+  <circle cx="150" cy="-7" r="9" fill="#D85A3F"/>
+  <circle cx="60" cy="151" r="9" fill="#D85A3F"/>
+  <circle cx="150" cy="151" r="8" fill="#132A28" stroke="#F1F2E8" stroke-width="3"/>
+  <circle cx="-17" cy="80" r="5" fill="#F1F2E8"/>
+  <circle cx="216" cy="80" r="5" fill="#F1F2E8"/>
+ </g>
+ <text x="50" y="372" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2.4" fill="#B4C4BB">AI AGENTS / AUTOMATION / DATA</text>
+ <path d="M1125 359H1147V381 M1147 359L1125 381" fill="none" stroke="#D85A3F" stroke-width="2"/>
+</svg>
