@@ -1,27 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
- <title id="title">Kotaro Kumakura — Ideas, made practical.</title>
- <desc id="desc">An editorial wordmark with an abstract branching symbol. AI agents, automation and data.</desc>
- <rect width="1200" height="400" rx="4" fill="#F6F5F0"/>
- <path d="M50 72H1150 M50 335H1150" stroke="#CDD2C9"/>
- <g font-family="Arial, Helvetica, sans-serif" fill="#163532">
-  <text x="50" y="46" font-size="17" letter-spacing="3">KOTARO KUMAKURA</text>
-  <text x="1150" y="46" font-size="15" text-anchor="end" fill="#536560">@kotarokuma</text>
- </g>
- <g font-family="Georgia, 'Times New Roman', serif" fill="#163532" font-size="91" letter-spacing="-4">
-  <text x="48" y="183">Ideas, made</text>
-  <text x="48" y="280">practical<tspan fill="#D85A3F">.</tspan></text>
- </g>
- <g transform="translate(849 118)" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <circle cx="100" cy="80" r="103" stroke="#CDD2C9"/>
-  <path d="M-17 80H41 Q60 80 60 60V-7 M60 80H126 Q150 80 150 56V-7 M60 80V151 M150 80V151 M150 80H216" stroke="#163532" stroke-width="3"/>
-  <path d="M60 151V103 Q60 80 83 80H126 Q150 80 150 56V-7" stroke="#D85A3F" stroke-width="6"/>
-  <circle cx="60" cy="-7" r="8" fill="#F6F5F0" stroke="#163532" stroke-width="3"/>
-  <circle cx="150" cy="-7" r="9" fill="#D85A3F"/>
-  <circle cx="60" cy="151" r="9" fill="#D85A3F"/>
-  <circle cx="150" cy="151" r="8" fill="#F6F5F0" stroke="#163532" stroke-width="3"/>
-  <circle cx="-17" cy="80" r="5" fill="#163532"/>
-  <circle cx="216" cy="80" r="5" fill="#163532"/>
- </g>
- <text x="50" y="372" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2.4" fill="#536560">AI AGENTS / AUTOMATION / DATA</text>
- <path d="M1125 359H1147V381 M1147 359L1125 381" fill="none" stroke="#D85A3F" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<title id="title">Kotaro Kumakura — Ideas, made practical.</title>
+<desc id="desc">Business, AI and people connected in a moving constellation. AI engineering, automation and education.</desc>
+<style>
+.orbit{transform-origin:950px 211px;animation:orbit 20s linear infinite}
+.orbit-back{transform-origin:950px 211px;animation:orbit 32s linear infinite reverse}
+.signal{stroke-dasharray:14 170;animation:signal 3.8s linear infinite}
+.signal-b{animation-delay:-1.9s}
+.halo{transform-box:fill-box;transform-origin:center;animation:halo 3.8s ease-out infinite}
+.halo-b{animation-delay:-1.9s}
+.core{transform-origin:950px 211px;animation:breathe 4s ease-in-out infinite}
+.float-top{animation:float 6s ease-in-out infinite}
+.float-bottom{animation:float 6s ease-in-out infinite reverse}
+.underline{stroke-dasharray:430;stroke-dashoffset:430;animation:draw 7s ease-in-out infinite}
+.marquee{animation:marquee 22s linear infinite}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes signal{to{stroke-dashoffset:-184}}
+@keyframes halo{0%{opacity:.65;transform:scale(1)}80%,100%{opacity:0;transform:scale(2.7)}}
+@keyframes breathe{50%{transform:scale(1.08)}}
+@keyframes float{50%{transform:translateY(-8px)}}
+@keyframes draw{0%,12%{stroke-dashoffset:430}38%,77%{stroke-dashoffset:0}95%,100%{stroke-dashoffset:-430}}
+@keyframes marquee{to{transform:translateX(-1100px)}}
+@media(prefers-reduced-motion:reduce){.orbit,.orbit-back,.signal,.halo,.core,.float-top,.float-bottom,.underline,.marquee{animation:none}.halo{display:none}.underline{stroke-dashoffset:0}}
+</style>
+<defs><clipPath id="ticker"><rect x="50" y="382" width="1100" height="44"/></clipPath></defs>
+<rect width="1200" height="440" rx="4" fill="#F6F5F0"/>
+<path d="M50 72H1150 M50 377H1150" stroke="#CDD2C9"/>
+<g font-family="Arial,Helvetica,sans-serif" fill="#163532">
+<text x="50" y="46" font-size="17" letter-spacing="3">KOTARO KUMAKURA</text>
+<text x="1150" y="46" font-size="15" text-anchor="end" fill="#536560">@kotarokuma</text>
+</g>
+<g font-family="Georgia,'Times New Roman',serif" fill="#163532" font-size="91" letter-spacing="-4">
+<text x="48" y="190">Ideas, made</text>
+<text x="48" y="287">practical<tspan fill="#D85A3F">.</tspan></text>
+</g>
+<path class="underline" d="M52 305Q242 324 476 302" fill="none" stroke="#D85A3F" stroke-width="3" stroke-linecap="round"/>
+<text x="50" y="349" font-family="Arial,Helvetica,sans-serif" fill="#536560" font-size="15" letter-spacing="1">ENGINEERING × BUSINESS × EDUCATION</text>
+<g fill="none">
+<circle cx="950" cy="211" r="113" stroke="#CDD2C9"/>
+<circle cx="950" cy="211" r="82" stroke="#CDD2C9" stroke-dasharray="2 9"/>
+<g class="orbit"><ellipse cx="950" cy="211" rx="144" ry="77" stroke="#CDD2C9" stroke-width="1.5"/><circle cx="1094" cy="211" r="6" fill="#D85A3F"/><circle cx="806" cy="211" r="4" fill="#163532"/></g>
+<g class="orbit-back"><circle cx="950" cy="211" r="132" stroke="#163532" stroke-dasharray="45 785" stroke-width="2"/><circle cx="950" cy="79" r="5" fill="#163532"/></g>
+<path d="M804 153C868 153 868 211 950 211S1031 278 1092 278 M808 286C866 286 868 211 950 211S1032 144 1090 144" stroke="#CDD2C9" stroke-width="2"/>
+<path class="signal" d="M804 153C868 153 868 211 950 211S1031 278 1092 278" stroke="#D85A3F" stroke-width="4" stroke-linecap="round"/>
+<path class="signal signal-b" d="M808 286C866 286 868 211 950 211S1032 144 1090 144" stroke="#163532" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g class="core"><rect x="916" y="177" width="68" height="68" rx="20" fill="#163532"/><text x="950" y="222" text-anchor="middle" font-family="Georgia,serif" font-size="31" fill="#F6F5F0">AI</text></g>
+<circle class="halo" cx="804" cy="153" r="6" fill="#D85A3F"/>
+<circle class="halo halo-b" cx="1092" cy="278" r="6" fill="#D85A3F"/>
+<circle cx="804" cy="153" r="5" fill="#D85A3F"/><circle cx="1092" cy="278" r="5" fill="#D85A3F"/>
+<g font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="1.5" fill="#163532">
+<g class="float-top"><rect x="1023" y="111" width="118" height="30" rx="15" fill="#E9ECE3"/><text x="1082" y="130" text-anchor="middle">BUSINESS</text></g>
+<g class="float-bottom"><rect x="762" y="295" width="108" height="30" rx="15" fill="#E9ECE3"/><text x="816" y="314" text-anchor="middle">PEOPLE</text></g>
+</g>
+<g clip-path="url(#ticker)" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="2" fill="#536560">
+<g class="marquee">
+<g transform="translate(0 0)"><text x="50" y="410">AI AGENTS</text><text x="260" y="410" fill="#D85A3F">↗</text><text x="340" y="410">WORKFLOW AUTOMATION</text><text x="665" y="410" fill="#D85A3F">↗</text><text x="740" y="410">HANDS-ON LEARNING</text><text x="1060" y="410" fill="#D85A3F">↗</text></g><g transform="translate(1100 0)"><text x="50" y="410">AI AGENTS</text><text x="260" y="410" fill="#D85A3F">↗</text><text x="340" y="410">WORKFLOW AUTOMATION</text><text x="665" y="410" fill="#D85A3F">↗</text><text x="740" y="410">HANDS-ON LEARNING</text><text x="1060" y="410" fill="#D85A3F">↗</text></g>
+</g></g>
 </svg>
