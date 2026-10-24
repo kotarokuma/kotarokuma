@@ -11,7 +11,7 @@ AIエンジニア・講師として、AIエージェントの活用、業務フ�
 
 I bridge business workflows and AI through engineering, practical training, and hands-on support.
 
-[仕事のご相談・協業 / Connect on LinkedIn](https://www.linkedin.com/in/kotaro-kumakura-b14131191/) &nbsp; ↗ &nbsp; [公開プロジェクト / Explore the code](https://github.com/kotarokuma/CS179-Final-Project)
+[仕事のご相談・協業 / Connect on LinkedIn](https://www.linkedin.com/in/kotaro-kumakura-b14131191/)
 
 <br>
 
@@ -47,20 +47,6 @@ A computer science foundation from UC Irvine, with hands-on work in Python, data
 I develop course materials and hands-on exercises around everyday business tasks, covering agent design, tool connections, team collaboration, and human review.
 
 **My role** — 講師 / Instructor · ワーク設計 / Workshop design · ライブデモ / Live demonstrations
-
-### [MovieLens · Exploring the data behind recommendations ↗](https://github.com/kotarokuma/CS179-Final-Project)
-
-映画推薦をテーマにした共同プロジェクト。私の担当は、MovieLensデータの探索的分析（EDA）です。
-
-My contribution to this team project was the exploratory data analysis of MovieLens:
-
-- **Ratings & activity** — 評価の分布、ユーザーごとの利用頻度と評価傾向
-- **Popularity & bias** — 人気作品への評価の集中と、人気度・平均評価の関係
-- **Genre patterns** — ジャンル構成の分析と可視化
-
-`Python` · `pandas` · `Matplotlib`
-
-[担当コード / EDA source](https://github.com/kotarokuma/CS179-Final-Project/blob/main/eda_movielens.py) &nbsp; · &nbsp; [チームの成果 / Full project](https://github.com/kotarokuma/CS179-Final-Project)
 
 <br>
 
