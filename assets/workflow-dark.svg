@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-labelledby="title desc">
+<title id="title">Understand. Build. Enable.</title><desc id="desc">From business needs, to practical AI workflows, to people who can use and improve them.</desc>
+<style>
+.flow{stroke-dasharray:32 178;animation:flow 3.5s linear infinite}
+.dot{animation:pulse 6s ease-in-out infinite}.two{animation-delay:-4s}.three{animation-delay:-2s}
+@keyframes flow{to{stroke-dashoffset:-210}}
+@keyframes pulse{0%,30%,100%{fill:#F1F2E8}10%,20%{fill:#D85A3F}}
+@media(prefers-reduced-motion:reduce){.flow,.dot{animation:none}}
+</style>
+<rect width="1200" height="170" rx="4" fill="#132A28"/>
+<path d="M98 45H1100" stroke="#3D5550" stroke-width="2"/>
+<path class="flow" d="M98 45H1100" stroke="#D85A3F" stroke-width="3"/>
+<g fill="#132A28" stroke="#3D5550"><circle cx="100" cy="45" r="15"/><circle cx="500" cy="45" r="15"/><circle cx="900" cy="45" r="15"/></g>
+<g fill="#F1F2E8"><circle class="dot" cx="100" cy="45" r="6"/><circle class="dot two" cx="500" cy="45" r="6"/><circle class="dot three" cx="900" cy="45" r="6"/></g>
+<g fill="#F1F2E8" font-family="Georgia,serif" font-size="30"><text x="80" y="103">Understand.</text><text x="480" y="103">Build.</text><text x="880" y="103">Enable.</text></g>
+<g fill="#B4C4BB" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="1"><text x="80" y="135">BUSINESS CONTEXT</text><text x="480" y="135">PRACTICAL AI WORKFLOWS</text><text x="880" y="135">PEOPLE &amp; TEAMS</text></g>
+</svg>
